@@ -48,9 +48,9 @@ Region is a place in the world where multiple availablity zones are there. Each 
 #### Planning for failure
 | | |
 |----------|---------|
-|![s](../pictures/Day1/Global_infra_storage_failure.png)|When a file is stored in Amazon S3, the file is redundantly copied into every Availability Zone in that Region. If one Availability Zone goes down, you still have two copies of that file available for you to use.|
-|![c](../pictures/Day1/Global_infra_compute_failure.png)|It is a best practice to spread out your computing resources across multiple Availability Zones to guarantee high availability. So, if one Availability Zone goes down, your architecture is still up and running.|
-|![db](../pictures/Day1/Global_infra_database_failure.png)|You can configure your database for Multi-AZ deployment. If your Availability Zone with your primary database fails, one of the standby databases in a healthy Availability Zone automatically becomes your new primary database. Therefore, your architecture is still functioning.|
+|![s](pictures/Day1/Global_infra_storage_failure.PNG)|When a file is stored in Amazon S3, the file is redundantly copied into every Availability Zone in that Region. If one Availability Zone goes down, you still have two copies of that file available for you to use.|
+|![c](pictures/Day1/Global_infra_compute_failure.PNG)|It is a best practice to spread out your computing resources across multiple Availability Zones to guarantee high availability. So, if one Availability Zone goes down, your architecture is still up and running.|
+|![db](pictures/Day1/Global_infra_database_failure.PNG)|You can configure your database for Multi-AZ deployment. If your Availability Zone with your primary database fails, one of the standby databases in a healthy Availability Zone automatically becomes your new primary database. Therefore, your architecture is still functioning.|
 
 ---
 
